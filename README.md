@@ -34,3 +34,10 @@ This is an early front-end prototype. Requests and bookings are stored in browse
 4. Integrate a compliant payment provider with webhook verification.
 5. Add chat, notifications, reviews, moderation and dispute workflows.
 6. Add automated tests, CI and deployment configuration.
+
+
+## Additional project: AquaSentinel ML
+
+An advanced machine-learning research prototype for explainable water-quality risk screening is available in [`projects/aquasentinel-ml/`]. It includes model comparison, cross-validation, permutation importance, a FastAPI endpoint, Streamlit dashboard, tests, and a synthetic data generator. Synthetic data is for software testing only; the project is not a certified water-safety tool.
+
+[Open AquaSentinel ML](https://github.com/OagengKunene/Thuso-Marketplace/tree/main/projects/aquasentinel-ml)
