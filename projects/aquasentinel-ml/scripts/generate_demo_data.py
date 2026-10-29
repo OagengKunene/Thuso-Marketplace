@@ -1,8 +1,12 @@
 import argparse
 from pathlib import Path
+import sys
 import numpy as np
 import pandas as pd
 from sklearn.datasets import make_classification
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 from aquasentinel.features import FEATURES
 
 def main():
